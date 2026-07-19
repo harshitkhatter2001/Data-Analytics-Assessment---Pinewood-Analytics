@@ -1,0 +1,100 @@
+[
+    {
+        "Check": "Row Count - fact_labor",
+        "Status": "FAIL",
+        "Severity": "High",
+        "Recommendation": "Investigate ETL",
+        "Details": "Bronze=295250, Silver=295250, Gold=297046"
+    },
+    {
+        "Check": "Row Count - fact_reviews",
+        "Status": "PASS",
+        "Severity": "Low",
+        "Recommendation": "None",
+        "Details": "Bronze=1696, Silver=1696, Gold=1696"
+    },
+    {
+        "Check": "Row Count - fact_leads",
+        "Status": "PASS",
+        "Severity": "Low",
+        "Recommendation": "None",
+        "Details": "Bronze=3320, Silver=3320, Gold=3320"
+    },
+    {
+        "Check": "Row Count - fact_incidents",
+        "Status": "PASS",
+        "Severity": "Low",
+        "Recommendation": "None",
+        "Details": "Bronze=1644, Silver=1644, Gold=1644"
+    },
+    {
+        "Check": "Row Count - fact_occupancy",
+        "Status": "PASS",
+        "Severity": "Low",
+        "Recommendation": "None",
+        "Details": "Bronze=16470, Silver=16470, Gold=16470"
+    },
+    {
+        "Check": "Row Count - fact_revenue",
+        "Status": "PASS",
+        "Severity": "Low",
+        "Recommendation": "None",
+        "Details": "Bronze=1038, Silver=1038, Gold=1038"
+    },
+    {
+        "Check": "Row Count - dim_resident",
+        "Status": "FAIL",
+        "Severity": "High",
+        "Recommendation": "Investigate ETL",
+        "Details": "Bronze=12456, Silver=823, Gold=823"
+    },
+    {
+        "Check": "Revenue Reconciliation",
+        "Status": "PASS",
+        "Severity": "Low",
+        "Recommendation": "None",
+        "Details": ""
+    },
+    {
+        "Check": "Shift Hours",
+        "Status": "FAIL",
+        "Severity": "Medium",
+        "Recommendation": "Check Pipeline",
+        "Details": ""
+    },
+    {
+        "Check": "Discharge Before Admit",
+        "Status": "PASS",
+        "Severity": "Low",
+        "Recommendation": "None",
+        "Details": ""
+    },
+    {
+        "Check": "Future Dated Incidents",
+        "Status": "PASS",
+        "Severity": "Low",
+        "Recommendation": "None",
+        "Details": ""
+    },
+    {
+        "Check": "Acuity Range",
+        "Status": "FAIL",
+        "Severity": "Medium",
+        "Recommendation": "Quarantine Records",
+        "Details": ""
+    },
+    {
+        "Check": "Negative Hours",
+        "Status": "PASS",
+        "Severity": "Low",
+        "Recommendation": "None",
+        "Details": ""
+    },
+    {
+        "Check": "Invalid Rating",
+        "Status": "PASS",
+        "Severity": "Low",
+        "Recommendation": "None",
+        "Details": ""
+    }
+]

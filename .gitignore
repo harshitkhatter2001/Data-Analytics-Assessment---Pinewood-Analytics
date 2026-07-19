@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.log
+
+# Virtual Environment
+venv/
+.env
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Python cache
+.pytest_cache/
+.ipynb_checkpoints/
+
+# DuckDB temporary files
+*.wal
+*.tmp
+
+# Large media files
+*.mkv
+*.mp4
+*.avi
+*.mov
+
+# Installers
+*.exe
+
+# OS files
+.DS_Store

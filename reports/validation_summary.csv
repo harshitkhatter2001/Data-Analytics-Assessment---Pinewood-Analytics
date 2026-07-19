@@ -1,0 +1,15 @@
+Check,Status,Severity,Recommendation,Details
+Row Count - fact_labor,FAIL,High,Investigate ETL,"Bronze=295250, Silver=295250, Gold=297046"
+Row Count - fact_reviews,PASS,Low,None,"Bronze=1696, Silver=1696, Gold=1696"
+Row Count - fact_leads,PASS,Low,None,"Bronze=3320, Silver=3320, Gold=3320"
+Row Count - fact_incidents,PASS,Low,None,"Bronze=1644, Silver=1644, Gold=1644"
+Row Count - fact_occupancy,PASS,Low,None,"Bronze=16470, Silver=16470, Gold=16470"
+Row Count - fact_revenue,PASS,Low,None,"Bronze=1038, Silver=1038, Gold=1038"
+Row Count - dim_resident,FAIL,High,Investigate ETL,"Bronze=12456, Silver=823, Gold=823"
+Revenue Reconciliation,PASS,Low,None,
+Shift Hours,FAIL,Medium,Check Pipeline,
+Discharge Before Admit,PASS,Low,None,
+Future Dated Incidents,PASS,Low,None,
+Acuity Range,FAIL,Medium,Quarantine Records,
+Negative Hours,PASS,Low,None,
+Invalid Rating,PASS,Low,None,
